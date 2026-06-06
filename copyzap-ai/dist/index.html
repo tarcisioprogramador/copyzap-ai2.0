@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <div class="app">
+  <h1>CopyZap AI</h1>
+
+  <input id="nome" placeholder="Nome do cliente">
+  <input id="produto" placeholder="Produto">
+  <input id="valor" placeholder="Valor">
+
+  <select id="tipo">
+    <option value="venda">Venda</option>
+    <option value="followup">Follow-up</option>
+    <option value="urgencia">Urgência</option>
+  </select>
+
+  <button onclick="gerar()">Gerar Copy</button>
+  <button onclick="copiar()">Copiar</button>
+  <button onclick="whatsapp()">Enviar WhatsApp</button>
+
+  <textarea id="resultado"></textarea>
+
+  <div id="historico"></div>
+</div>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
